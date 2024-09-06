@@ -44,14 +44,17 @@ class FeatureContainer extends StatelessWidget {
                 color: Pallete.blackColor,
               ),
             ),
-            Text(
-              discriptionText,
-              style: const TextStyle(
-                fontFamily: 'Cera Pro',
-                color: Pallete.blackColor,
-                fontWeight: FontWeight.w500,
+            Padding(
+              padding: const EdgeInsets.only(right: 20.0),
+              child: Text(
+                discriptionText,
+                style: const TextStyle(
+                  fontFamily: 'Cera Pro',
+                  color: Pallete.blackColor,
+                  fontWeight: FontWeight.w500,
+                ),
               ),
-            )
+            ),
           ],
         ),
       ),
